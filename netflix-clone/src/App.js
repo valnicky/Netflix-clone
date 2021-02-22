@@ -5,7 +5,13 @@ function App() {
     return ( <
         div className = "App" >
         <
-        h1 > Netflix Clone Front - end < /h1> < /
+        h1 > Netflix Clone Front - end < /h1> <
+        Row title = "NETFLIX ORIGINALS" / >
+        <
+        Row title = "Trending Now" / >
+
+        <
+        /
         div >
     );
 }
