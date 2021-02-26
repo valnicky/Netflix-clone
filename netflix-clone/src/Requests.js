@@ -1,7 +1,7 @@
 const API_KEY = "feb0a933b10a99bd61842a37d63a0f90";
 
 //https://api.themoviedb.org/3/discover/movie?api_key=feb0a933b10a99bd61842a37d63a0f90&with_genres=28&sort_by=popularity.desc
-const requests = {
+const Requests = {
     fetchTrending: `/trending/all/week?api_key=${API_KEY}&language=en-US`,
     fetchTopRated: `/movie/top_rated?api_key=${API_KEY}&language=en-US`,
     fetchNetflixOriginals: `/discover/tv?api_key=${API_KEY}&with_networks=213&sort_by=popularity.desc`,
@@ -15,4 +15,4 @@ const requests = {
 
 
 
-export default requests;
+export default Requests;
